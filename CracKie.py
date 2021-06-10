@@ -94,7 +94,6 @@ def menu_login():
 	print("[1] Login With ACCESS TOKEN")
 	print("[2] Login With ID/PASS")
 	print("[3] FOLLOW AUTHOR ON FB")
-    print("[0] Direct Exit")
 	print(50*"-")
 	menu_login2() 
 def menu_login2():
@@ -120,8 +119,6 @@ def menu_login2():
 		login_fb()
 	if user_select == '3':
         os.system('xdg-open https://www.facebook.com/RehanMaqsood786')
-	elif user_select =="0":
-		os.system("exit")
 	else:
 		print("")
 		print("Please Select A Valid Option")
